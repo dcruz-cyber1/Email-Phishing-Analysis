@@ -2,21 +2,27 @@
 
 Read me 
 
-Summary
-This project analyzes a phishing email impersonating Microsoft Outlook Support. The email was obtained from a public .eml repository and examined using forensic tools to assess its metadata, delivery path, social engineering tactics, and potential indicators of compromise (IOCs). The goal was to identify how the email bypassed authentication and what threat indicators a Tier 1 SOC analyst would use for triage and escalation.
+This project is a phishing email trying to impersonating Microsoft Outlook Support. The sample, sourced from a public .eml repository, was examined using forensic tools to assess its metadata, delivery path, social engineering tactics, and potential indicators of compromise (IOCs).
 
-Tools used
+The goal was to see how the email showed up on authentication controls and identify threat indicators a Tier 1 SOC analyst could use.
 
-github for finding .eml
-Thunderbird To safely open and inspect raw email headers and metadata
-virus total to detect viruses from attachments 
-MXToolbox  To analyze SPF, DKIM, and DMARC results from raw headers
-Google Header Analyzer To trace email routing, delivery path, and delays
+Tools Used
+GitHub – For sourcing .eml phishing samples
+Mozilla Thunderbird – Safely opening and inspecting raw email headers and metadata
+VirusTotal – Detecting potential malicious payloads in attachments
+MXToolbox – Analyzing SPF, DKIM, and DMARC results from headers
+Google Header Analyzer – Tracing routing, delivery path, and delays
 
-Final notes
-This project demonstrates foundational skills for a Tier 1 SOC analyst, including:
+
+
+Skills Demonstrated
 Email threat triage
 IOC extraction
 Header and authentication analysis
-Social engineering awareness
-Communication of threat intelligence
+Social engineering assessment
+Communicating threat intelligence clearly
+
+
+
+Final Notes
+This project showcases skills expected of a Tier 1 SOC analyst, identifying and documenting phishing threats, authentication results, and recognizing social engineering techniques in real email attacks.
